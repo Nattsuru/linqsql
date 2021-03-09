@@ -25,7 +25,7 @@ namespace linqsql
                        select u;
             //subiendo cambios
             //Mensaje nuevo
-            //nuevo b
+            //nuevo bs
             dgView.DataSource = user.ToList();
         }
     }

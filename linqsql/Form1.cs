@@ -23,7 +23,9 @@ namespace linqsql
             data = new DataDataContext();
             var user = from u in data.GetTable<usuarios>()
                        select u;
+            //cambiosasc
             //subiendo cambiosasc
+            //cambiosasc
             dgView.DataSource = user.ToList();
         }
     }
